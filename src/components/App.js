@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import TeamList from "./TeamList";
+import StateControl from "./StateControl";
 
 function App(){
   return (
     <React.Fragment>
       <Header />
-      <TeamList />
+      <StateControl />
     </React.Fragment>
   );
 }
